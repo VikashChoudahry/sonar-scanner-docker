@@ -21,9 +21,7 @@ router.get('/', (req, res) => {
       subLocation: {
         state: 'GOA',
         pinCode: '403501',
-        area: {
-          city: 'Porvorim',
-        },
+        area: { city: 'Porvorim' },
       },
     },
   };
